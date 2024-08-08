@@ -2,6 +2,16 @@
 
 Golang execution layer implementation of the Ethereum protocol.
 
+# ZKM Blockchain
+## Overview
+This document explains the ZK Proof integration into the SmartChain fork.
+## Build Instructions
+- Run `make all`
+## Running the Blockchain
+- Run `./build/bin/smartchaind --config ./genesis.json`
+## Transaction Validation
+Transactions are validated with ZK proofs using the [gnark](https://github.com/ConsenSys/gnark) library.
+
 [![API Reference](
 https://pkg.go.dev/badge/github.com/ethereum/go-ethereum
 )](https://pkg.go.dev/github.com/ethereum/go-ethereum?tab=doc)
