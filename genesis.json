@@ -15,7 +15,8 @@
         "mergeNetsplitBlock": 0
     },
     "alloc": {
-        "0x2Ce86630bab89e05846d5f690478C91bcD1EB3Ad": { "balance": "100000000000000" }
+        "0x2Ce86630bab89e05846d5f690478C91bcD1EB3Ad": { "balance": "100000000000000" },
+        "0xed4974c14a83deb6523aee100e5cc7b47f8350c1": { "balance": "100000000000000" }
     },
     "difficulty": "0x20000",
     "gasLimit": "0x8000000"
